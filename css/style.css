@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-/* body.lock{
+body.lock{
 	overflow: hidden;
   animation: hidden forwards 6.5s;
 } 
@@ -66,7 +66,7 @@ body::-webkit-scrollbar-track {
   100% {
   overflow:visible;
 }
-}  */
+}
 .preloader{
   display: flex;
   align-items: center;
