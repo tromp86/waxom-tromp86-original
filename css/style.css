@@ -26,6 +26,12 @@ a, a:hover {
   h1, h2, h3, h4, h5, h6 {
   font-family: var(--basicFonts-1);
 }
+h6{
+  display: none;
+} 
+h5{
+  display: none;
+} 
 body {
   height: auto;
   width: 100%;
@@ -205,8 +211,8 @@ body.lock{
 	flex-direction: column;
 	align-items: center;
 	position: fixed;
-	right: 2%;
-	bottom: 3%;
+	right: 1%;
+	bottom: 0%;
   padding: 10px;
   z-index: 1000;
 }
@@ -962,6 +968,7 @@ input{
 .button-wrap{
   display: flex;
 }
+
 /*  */
 .video {
   background-size: cover; 
@@ -1163,6 +1170,7 @@ input{
   right: 0;
   bottom: -30px;
 }
+
 /*  */
 .recent {
   display: flex;
@@ -1415,9 +1423,6 @@ input{
 }
 .footer-copyright span{
   color:var(--basic-2);
-  /* background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 .footer-copyright-item:hover{
@@ -1485,4 +1490,5 @@ svg {
     stroke-dashoffset: -55%;
   }
 }
+
 
