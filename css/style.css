@@ -32,6 +32,9 @@ h6{
 h5{
   display: none;
 } 
+html{
+  scroll-behavior: smooth;
+}
 body {
   height: auto;
   width: 100%;
@@ -39,7 +42,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   color: var(--basic-4);
-  scroll-behavior: smooth;
+
   cursor: url(../img/cursor/cursor19.png) 2 2, default;
   overflow-y: overlay;
 }
